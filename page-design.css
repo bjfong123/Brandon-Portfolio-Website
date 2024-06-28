@@ -2,13 +2,15 @@
   border-radius:175px;
   width:350px;
   height:350px;
+  border:3px, solid, #1BA098;
+  
 }
 
 .intro{
   display:flex;
   align-items: center;
   justify-content: center;
-  margin-top:100px;
+  margin-top:30px;
 }
 
 .intro-name{
@@ -25,7 +27,7 @@
   font-weight:bold;
   margin-left:40px;
   font-size:20px;
-  font-family:Roboto, Arial;
+  font-family:Open Sans, Arial;
   margin-top:30px
 }
 
@@ -34,16 +36,16 @@
  margin-top:10px;
  width:300px;
  font-size:18px;
- font-family:Roboto, Arial;
+ font-family:Open Sans, Arial;
  margin-left:40px;
  color:gray;
 }
 
 body{
-  font-family:Roboto, Arial;
+  font-family:Open Sans, Arial;
   min-height:100%;
   padding-bottom: 50px;
-
+  background-color:#EFEDE7;
 }
 
 html {
