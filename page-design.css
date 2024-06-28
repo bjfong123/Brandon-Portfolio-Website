@@ -1,0 +1,52 @@
+.profile-pic{
+  border-radius:175px;
+  width:350px;
+  height:350px;
+}
+
+.intro{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:100px;
+}
+
+.intro-name{
+  font-weight:bold;
+  font-family:Roboto, Arial;
+  font-size:50px;
+  margin-left:38px;
+}
+
+.intro-about{
+  display:flex;
+}
+.aboutme{
+  font-weight:bold;
+  margin-left:40px;
+  font-size:20px;
+  font-family:Roboto, Arial;
+  margin-top:30px
+}
+
+
+.paragraph{
+ margin-top:10px;
+ width:300px;
+ font-size:18px;
+ font-family:Roboto, Arial;
+ margin-left:40px;
+ color:gray;
+}
+
+body{
+  font-family:Roboto, Arial;
+  min-height:100%;
+  padding-bottom: 50px;
+
+}
+
+html {
+  min-height: 100%;
+  overflow-y: scroll;
+}   

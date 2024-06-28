@@ -1,0 +1,79 @@
+.bottom-header {
+  position:fixed;
+  bottom: 10px; 
+  display:flex;
+  flex-direction:row;
+  flex-shrink:0;
+} 
+
+.left-b-section{
+  flex:0.5;
+  display:flex;
+}
+
+.right-b-section{
+  flex:0.5;
+  display:flex;
+}
+
+.email{
+  font-family:Roboto, Arial;
+  font-size:20px;
+  color:gray;
+  width:50px;
+}
+
+.github{
+  font-family:Roboto, Arial;
+  font-size:20px;
+  color:gray;
+  width:100px;
+  margin-left:500px;
+  text-decoration: none;
+}
+
+.linkedIn{
+  font-family:Roboto, Arial;
+  font-size:20px;
+  color:gray;
+  right:0px;
+  width:400px;
+  margin-left:70px;
+  text-decoration:none;
+}
+
+.rights{
+  width:100px;
+  margin-left:120px;
+}
+
+.github-img{
+  width:5px;
+  height:25px;
+  width:25px;
+  margin-left: -90px;
+
+}
+
+.LinkedIn-img{
+  height:25px;
+  width:25px;
+  margin-left:130px;
+}
+
+.LinkedIn-img:hover{
+  width:40px;
+  height:40px;
+  cursor:pointer;
+  transition: 0.5s;
+}
+
+.github-img:hover{
+  height:40px;
+  width:40px;
+  cursor:pointer;
+  transition: 0.5s;
+}
+
+
+
